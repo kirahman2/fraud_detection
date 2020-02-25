@@ -1,7 +1,7 @@
 # fraud_detection
 Detecting credit card detection
 
-![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary-image.png)
+![alt text]()
 # $190 Billion A Year Is What This Costs Everyone. How Can Banks Predict Fraudulent Credit Card Transactions To Avoid This? 
 
 ## Introduction
