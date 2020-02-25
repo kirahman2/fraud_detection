@@ -1,6 +1,3 @@
-# fraud_detection
-Detecting credit card detection
-
 ![alt text]()
 # $190 Billion A Year Is What This Costs Everyone. How Can Banks Predict Fraudulent Credit Card Transactions To Avoid This? 
 
@@ -13,7 +10,7 @@ This real life dataset comes from a Kaggle competition hosted by IEEE Computatio
 ## Preprocessing
 For the data cleaning process, I followed the steps listed below.
 * Dropped 214 columns that’s missing more than 50% of data.
-* 
+* Imputed addr1, addr2, ProductCD, P_emaildomain, card1 - card6 and M1 - M6. 
 * Downsampled the majority data from 569,877 to 95,000.
 * Upsampled the minority data from 20,663 to 95,000.
 
