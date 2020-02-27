@@ -1,5 +1,5 @@
 ![alt text]()
-# This $190 Billion A Year Problem Is Costly. How Can Banks Predict Fraudulent Credit Card Transactions To Avoid This? 
+# This $190 Billion A Year Problem Is Costly. How Can Banks Predict Fraudulent Credit Card Transactions? 
 
 ## Introduction
 To predict fraudulent credit card transactions, I examined a variety of transaction attributes that clued me into which transactions are more likely to be fraudulent. 
