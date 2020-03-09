@@ -16,8 +16,8 @@ For the data cleaning process, I followed the steps listed below.
 
 ## Exploratory Data Analysis
 ### Email Provider
-![alt text](https://github.com/kirahman2/fraud_detection/blob/master/images/top10address.png)
-![alt text](https://github.com/kirahman2/fraud_detection/blob/master/images/top10emailproviders.png)
+![alt text]()
+![alt text]()
 ![alt text]()
 ![alt text]()
 ### Address
