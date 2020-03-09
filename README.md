@@ -10,11 +10,11 @@ This real life dataset comes from a Kaggle competition hosted by IEEE Computatio
 
 ## Preprocessing
 * Filled missing data for 197 columns with each column's mode value.
-*Dropped 214 columns missing more than 50% of data.
-*Fixed “nan” string values and converted them to np.nan values. 
-*Filled NaN values with “missing” in P_emaildomain feature. 
-*Downsampled majority data from 569,877 to 95,000 using RandomUnderSampler.
-*Upsampled minority data from 20,663 to 95,000 using SMOTE. 
+* Dropped 214 columns missing more than 50% of data.
+* Fixed “nan” string values and converted them to np.nan values. 
+* Filled NaN values with “missing” in P_emaildomain feature. 
+* Downsampled majority data from 569,877 to 95,000 using RandomUnderSampler.
+* Upsampled minority data from 20,663 to 95,000 using SMOTE. 
 
 ## Exploratory Data Analysis
 ### Email Provider
