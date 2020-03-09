@@ -5,7 +5,7 @@
 Detecting fraudulent credit card transactions is challenging. In this project I explore a variety of features and models to determine which combinations best predict fraudulent transactions. After parsing through much ambiguity, I manage to create new features resulting in a successful model. 
 
 ## Data
-The dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society and Vesta. The dataset is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features meant to randomize the personal information of the public [data](https://www.kaggle.com/c/ieee-fraud-detection/data).
+The dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society and Vesta. The dataset is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features meant to randomize the personal information of the public. [data source](https://www.kaggle.com/c/ieee-fraud-detection/data).
 
 ## Preprocessing
 * Dropped 214 columns missing more than 50% of data.
