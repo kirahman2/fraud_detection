@@ -2,10 +2,11 @@
 # This $190 Billion A Year Problem Is Costly. How Can Banks Better Predict Fraudulent Credit Card Transactions To Save You Money?
 
 ## Introduction
-To predict fraudulent credit card transactions, I examined a variety of transaction attributes that clued me into which transactions are more likely to be fraudulent. 
+Detecting fraudulent credit card transactions is very challenging. In this project I explore a variety of features and models to determine which combination best predicts fraudulent card transactions. After parsing through much ambiguity, I manage to create and remove a number of features to improve the model score. 
 
 ## Data
-This real life dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society. The dataset is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features designed to randomize the personal information of the public. https://www.kaggle.com/c/ieee-fraud-detection/data
+This real life dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society and Vesta. The dataset is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features meant to randomize the personal information of the public. [data](https://www.kaggle.com/c/ieee-fraud-detection/data)
+
 
 ## Preprocessing
 For the data cleaning process, I followed the steps listed below.
