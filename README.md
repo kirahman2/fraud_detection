@@ -15,12 +15,22 @@ For the data cleaning process, I followed the steps listed below.
 * Upsampled the minority data from 20,663 to 95,000.
 
 ## Exploratory Data Analysis
+### Email Provider
+![alt text](https://github.com/kirahman2/fraud_detection/blob/master/images/top10address.png)
+![alt text](https://github.com/kirahman2/fraud_detection/blob/master/images/top10emailproviders.png)
+![alt text]()
+![alt text]()
 ### Address
+![alt text]()
+![alt text]()
+![alt text]()
+### Debit/Credit
+![alt text]()
+![alt text]()
 
-![alt text](<insert link>)
 
 ## Modeling
-
+![alt text]()
 
 ## Conclusion
 
