@@ -5,7 +5,7 @@
 Detecting fraudulent credit card transactions is challenging. In this project I explore a variety of features and models to determine which combinations best predict fraudulent transactions. After parsing through much ambiguity, I manage to create new features resulting in a successful model. 
 
 ## Data
-This dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society and Vesta. The dataset is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features meant to randomize the personal information of the public [data](https://www.kaggle.com/c/ieee-fraud-detection/data).
+The dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society and Vesta. The dataset is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features meant to randomize the personal information of the public [data](https://www.kaggle.com/c/ieee-fraud-detection/data).
 
 ## Preprocessing
 * Dropped 214 columns missing more than 50% of data.
@@ -25,7 +25,6 @@ With Gmail representing 228,355 records compared to Comcast at 7,888 records, I 
 <p align="left">
   <img width="680" height="240" src="https://github.com/kirahman2/fraud_detection/blob/master/images/top6emailproviders_ratio.png">
 </p>
-
 
 ## Modeling
 In this dataset, I imputed a number of features which are listed below. 
@@ -49,11 +48,7 @@ The following features were dropped.
 
 * addr1, addr2, card2, card3, C1, V294, V279, C14, V306, D2, D10 and C4
 
-The dataset used to train the model has a total of 291 predictors. 
-
-I selected a 9/10 - 1/10 train-test split for the models. 
-
-Here are the results of the model after using Randomized Grid Search and manually tuning the models. 
+The dataset used to train the model has a total of 291 predictors. I selected a 9/10 - 1/10 train-test split for the models. Below are the model results.
 
 | Model   | Performance | Performance with Hyperparam. Tuning | 
 | :------------- |:-------------|:-----|
@@ -62,7 +57,7 @@ Here are the results of the model after using Randomized Grid Search and manuall
 | XGB Classifier     | 0.819 AUC| 0.880 AUC|
 | Cat Boost Classifier | 0.887 AUC| 0.908 AUC|
 
-For the base model, I chose Logistic Regression. Though, during the research process I found that random forests were known to be the best model for detecting fraudulent card transactions. Considering this, I introduced XGBClassifier and CatBoost since they are tree based models. Of all the models, CatBoostClassifier scored the highest. 
+For the base model, I chose Logistic Regression. During the research process I found that random forests were known to be the best model for detecting fraudulent card transactions. Considering this, I introduced XGBClassifier and CatBoost since they are tree based models. Of all models, CatBoostClassifier scored the highest. 
 
 Below is the feature importance bar chart of CatBoostClassifier. We see that a number of engineered features became some of the most important for making accurate predictions. 
 
