@@ -9,7 +9,7 @@ This real life dataset comes from a Kaggle competition hosted by IEEE Computatio
 
 
 ## Preprocessing
-*Filled missing data for 197 columns with each column's mode value.
+* Filled missing data for 197 columns with each column's mode value.
 *Dropped 214 columns missing more than 50% of data.
 *Fixed “nan” string values and converted them to np.nan values. 
 *Filled NaN values with “missing” in P_emaildomain feature. 
