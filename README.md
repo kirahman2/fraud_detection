@@ -5,7 +5,7 @@
 Detecting fraudulent credit card transactions is challenging. In this project I explore a variety of features and models to determine which combinations best predict fraudulent transactions. After parsing through much ambiguity, I manage to create new features resulting in a successful model. 
 
 ## Data
-The dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society and Vesta. The dataset is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features meant to randomize the personal information of the public. [data source](https://www.kaggle.com/c/ieee-fraud-detection/data)
+The dataset comes from a Kaggle competition hosted by IEEE Computational Intelligence Society and Vesta. It is comprised of 432 features and 590,540 rows. Some important features include basic credit card information such as transaction type (debit or credit), email address linked to card, product purchased and other anonymous features meant to randomize the personal information of the public. [data source](https://www.kaggle.com/c/ieee-fraud-detection/data)
 
 ## Preprocessing
 * Dropped 214 columns missing more than 50% of data.
@@ -14,7 +14,7 @@ The dataset comes from a Kaggle competition hosted by IEEE Computational Intelli
 * Upsampled minority data from 20,663 to 95,000 using SMOTE. 
 
 ## Exploratory Data Analysis
-During the exploratory data analysis phase I hypothesized that an email provider associated with a card transaction is a potential predictor of fraudulent card transactions. Below we can see top email providers in the dataset.
+During the exploratory data analysis phase I hypothesized that an email provider associated with a card transaction is a potential predictor of fraudulent card transactions. Below we can see the top email providers in the dataset.
 
 <p align="left">
   <img width="580" height="280" src="https://github.com/kirahman2/fraud_detection/blob/master/images/top10emailproviders.png">
@@ -27,7 +27,7 @@ With Gmail representing 228,355 records compared to Comcast at 7,888 records, I 
 </p>
 
 ## Modeling
-In this dataset, I imputed a number of features which are listed below. 
+In the dataset I imputed a number of features listed below. 
 * Imputed (label encoded) 333 values from addr1
 * Imputed (label encoded) 75 values from addr2
 * Imputed (dummy variable) 5 values from ProductCD
@@ -66,4 +66,4 @@ Below is the feature importance bar chart of CatBoostClassifier. We see that a n
 </p>
 
 ## Conclusion
-After reviewing the feature importance bar chart, it became apparent that one hot encoding features in the dataset proved to be very effective. Future iterations of this project would include revisiting EDA to uncover additional signal in features like addr1 and TransactionAmt to create new additional features. 
+After reviewing the feature importance bar chart, it became apparent that one hot encoding features in the dataset proved to be very effective. Future iterations of this project would include revisiting EDA to uncover additional signal in features like addr1 and TransactionAmt to create new features. 
