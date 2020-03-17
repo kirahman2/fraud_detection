@@ -40,6 +40,7 @@ In the dataset I imputed a number of features listed below.
 * Imputed (dummy variable) 4 values from card6
 * Imputed (dummy variable) 2 values from each of M1 - M6
 
+### Feature Engineering
 The following features were created by calculating the probability of each unique value within each feature being fraudulent. 
 
 * addr1_fe, addr2_fe, card2_fe, card3_fe, C1_fe, P_emaildomain_fe, card6_fe, V294_fe, V279_fe, C14_fe, V306_fe, D2_fe, D10_fe, card5_fe, V317_fe, V69_fe, D1_fe, D3_fe, D4_fe and D11_fe
