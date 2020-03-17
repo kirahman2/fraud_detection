@@ -28,7 +28,7 @@ With Gmail representing 228,355 records compared to Comcast at 7,888 records, I 
 
 ## Modeling
 ### Imputed Features
-In the dataset I imputed a number of features listed below. 
+In the dataset I imputed the features listed below. 
 * Imputed (label encoded) 333 values from addr1
 * Imputed (label encoded) 75 values from addr2
 * Imputed (dummy variable) 5 values from ProductCD
