@@ -1,6 +1,10 @@
 ![alt text](https://github.com/kirahman2/fraud_detection/blob/master/images/creditcardfraudimage.jpg)
 # This $190 Billion A Year Problem Is Costly. How Can Banks Better Predict Fraudulent Credit Card Transactions To Save You Money?
 
+<p align="center">
+  <img width="580" height="280" src="https://github.com/kirahman2/fraud_detection/blob/master/images/github2.png">
+</p>
+
 ## Introduction
 Detecting fraudulent credit card transactions is challenging. In this project I explore a variety of features and models to determine which combinations best predict fraudulent transactions. After parsing through much ambiguity, I manage to create new features resulting in a successful model. [Click here and view python code/notebook](https://github.com/kirahman2/fraud_detection/blob/master/Fraud%20Detection%20Notebook.ipynb)
 
