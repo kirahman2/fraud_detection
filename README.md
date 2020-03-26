@@ -15,7 +15,7 @@ The dataset comes from a Kaggle competition hosted by IEEE Computational Intelli
 
 ## Exploratory Data Analysis
 During the exploratory data analysis phase I hypothesized that an email provider associated with a card transaction is a potential predictor of fraudulent card transactions. Below we can see the top email providers in the dataset.
-[View Data Analysis Notebook](https://github.com/kirahman2/fraud_detection/blob/master/Fraud%20Detection%20Data%20Analysis.ipynb)
+[Click to View Data Analysis Notebook](https://github.com/kirahman2/fraud_detection/blob/master/Fraud%20Detection%20Data%20Analysis.ipynb)
 
 <p align="left">
   <img width="580" height="280" src="https://github.com/kirahman2/fraud_detection/blob/master/images/top10emailproviders.png">
